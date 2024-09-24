@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="favicon.png">
+    </head>
+    <body>
+        <title>You Got Trolled</title>
+        <h1>:|</h1>
+        <p>12 334 55 0233</p>
+        <p> This site can’t be reached 
+            Check if Windows Network Diagnostics.
+            DNS_PROBE_FINISHED_NXDOMAIN
+        </p>
+        <p> ERROR Dancing
+        </p>
+        <button onclick="playVid()" type="button">Play Video</button>
+        <button onclick="pauseVid()" type="button">Pause Video</button><br> 
+        <video id="ERROR Dancing" width="320" height="240" loop>
+            <source src="Steve Dancing Around.mp4" type="video/mp4">
+            <source src="Steve Dancing Around.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+        </video>
+        <script> 
+            let vid = document.getElementById("ERROR Dancing"); 
+            
+            function playVid() { 
+              vid.play(); 
+            } 
+            
+            function pauseVid() { 
+              vid.pause(); 
+            } 
+            </script> 
+           <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <link href="style.css" rel="stylesheet">
+            </head>
+    </body>
+</html>
